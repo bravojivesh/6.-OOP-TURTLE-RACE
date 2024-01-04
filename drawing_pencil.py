@@ -31,7 +31,8 @@ def cc():
 biggie=tu.Turtle()
 screen=tu.Screen()
 
-screen.listen()
+screen.listen() #this is the main method that tells the code to listen to the keys entered below.
+
 screen.onkey(fun=forwards,key="w")
 screen.onkey(fun=backwards,key="s")
 screen.onkey(fun=clockwise,key="a")
